@@ -10,166 +10,207 @@
   <!-- Hero Section -->
   <section class="pt-32 pb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
     <div class="mb-6">
-      <span class="text-xs font-bold tracking-widest text-gray-500 uppercase">The #1 Creator Marketing Platform</span>
+      <span class="text-xs font-bold tracking-widest text-gray-500 uppercase">Tennis Bracket Challenges Reimagined</span>
     </div>
     <h1 class="text-5xl md:text-7xl font-serif mb-6 leading-tight">
-      Where B2B brands scale <br class="hidden md:block" /> influencer marketing
+      Turn Grand Slam tennis <br class="hidden md:block" /> into competitive brackets
     </h1>
     <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-      The fastest and easiest way to do influencer marketing at scale.
-      Find the right creators on all platforms, book, collaborate, and pay – all in one place.
+      Create bracket challenges for every Grand Slam tournament. Get AI-powered match predictions, 
+      compete with friends on group leaderboards, and track live updates throughout the tournament.
     </p>
     <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-20">
-      <Button href="#" type="primary">Get access &rarr;</Button>
-      <Button href="#" type="outline">Talk to us</Button>
+      <Button href="https://app.brckt.io/group/create" type="primary">Create Your Bracket &rarr;</Button>
+      <Button href="https://app.brckt.io/explore" type="outline">Explore Groups</Button>
     </div>
 
     <!-- Hero Image Placeholder -->
     <div class="relative w-full max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-2xl border border-gray-200 bg-white aspect-[16/9] mb-16 group">
-      <!-- Mock UI -->
+      <!-- Mock Bracket UI -->
       <div class="absolute inset-0 bg-gray-50 p-4">
         <div class="h-full w-full bg-white rounded-xl border border-gray-200 shadow-sm p-6 flex flex-col">
             <!-- Header of Mock UI -->
             <div class="flex items-center justify-between mb-6 border-b border-gray-100 pb-4">
                 <div class="flex items-center gap-3">
-                    <div class="w-8 h-8 rounded-full bg-orange-100"></div>
+                    <div class="w-8 h-8 rounded-full bg-primary-brand/20 flex items-center justify-center text-xs font-bold">🎾</div>
                     <div class="h-4 w-32 bg-gray-100 rounded"></div>
+                    <span class="text-xs text-gray-400">US Open 2025</span>
                 </div>
                 <div class="flex gap-2">
-                    <div class="h-8 w-20 bg-gray-100 rounded"></div>
-                    <div class="h-8 w-20 bg-gray-100 rounded"></div>
+                    <div class="h-8 px-3 bg-primary-brand/10 rounded flex items-center text-xs font-medium">Leaderboard</div>
+                    <div class="h-8 px-3 bg-gray-100 rounded flex items-center text-xs">My Picks</div>
                 </div>
             </div>
-            <!-- Content of Mock UI -->
-            <div class="flex-1 grid grid-cols-12 gap-6">
-                <div class="col-span-3 space-y-3">
-                    <div class="h-4 w-full bg-gray-100 rounded"></div>
-                    <div class="h-4 w-3/4 bg-gray-100 rounded"></div>
-                    <div class="h-4 w-5/6 bg-gray-100 rounded"></div>
+            <!-- Bracket Content -->
+            <div class="flex-1 flex gap-4 overflow-hidden">
+                <!-- Round 1 -->
+                <div class="flex-1 space-y-2">
+                    <div class="text-[10px] font-bold text-gray-400 mb-2">ROUND 1</div>
+                    <div class="bg-gray-50 rounded p-2 text-xs flex justify-between items-center">
+                        <span class="font-medium">Djokovic</span>
+                        <span class="text-gray-400">1</span>
+                    </div>
+                    <div class="bg-gray-50 rounded p-2 text-xs flex justify-between items-center opacity-50">
+                        <span>Qualifier</span>
+                        <span class="text-gray-400">-</span>
+                    </div>
+                    <div class="bg-gray-50 rounded p-2 text-xs flex justify-between items-center">
+                        <span class="font-medium">Alcaraz</span>
+                        <span class="text-gray-400">3</span>
+                    </div>
+                    <div class="bg-gray-50 rounded p-2 text-xs flex justify-between items-center opacity-50">
+                        <span>Player</span>
+                        <span class="text-gray-400">-</span>
+                    </div>
                 </div>
-                <div class="col-span-9 bg-gray-50 rounded-lg p-4 grid grid-cols-2 gap-4">
-                     <div class="bg-white p-4 rounded shadow-sm h-32"></div>
-                     <div class="bg-white p-4 rounded shadow-sm h-32"></div>
-                     <div class="bg-white p-4 rounded shadow-sm h-32"></div>
-                     <div class="bg-white p-4 rounded shadow-sm h-32"></div>
+                <!-- Round 2 -->
+                <div class="flex-1 space-y-2">
+                    <div class="text-[10px] font-bold text-gray-400 mb-2">ROUND 2</div>
+                    <div class="bg-primary-brand/10 rounded p-2 text-xs flex justify-between items-center border-2 border-primary-brand/30">
+                        <span class="font-bold">Djokovic</span>
+                        <span class="text-primary-brand">✓</span>
+                    </div>
+                    <div class="h-8"></div>
+                    <div class="bg-gray-50 rounded p-2 text-xs flex justify-between items-center">
+                        <span class="font-medium">Alcaraz</span>
+                        <span class="text-gray-400">?</span>
+                    </div>
+                </div>
+                <!-- Semifinals -->
+                <div class="flex-1 space-y-2">
+                    <div class="text-[10px] font-bold text-gray-400 mb-2">SEMIFINALS</div>
+                    <div class="bg-gray-50 rounded p-2 text-xs flex justify-between items-center">
+                        <span>TBD</span>
+                        <span class="text-gray-400">-</span>
+                    </div>
+                    <div class="h-16"></div>
+                    <div class="bg-gray-50 rounded p-2 text-xs flex justify-between items-center">
+                        <span>TBD</span>
+                        <span class="text-gray-400">-</span>
+                    </div>
+                </div>
+                <!-- Finals -->
+                <div class="flex-1 flex items-center">
+                    <div class="w-full">
+                        <div class="text-[10px] font-bold text-gray-400 mb-2">FINAL</div>
+                        <div class="bg-gray-50 rounded p-3 text-xs text-center">
+                            <div class="text-2xl mb-1">🏆</div>
+                            <div class="text-gray-400">Champion</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
       </div>
       
       <!-- Decorative Elements -->
-      <div class="absolute -left-12 bottom-12 w-24 h-24 bg-orange-brand rounded-full blur-2xl opacity-20"></div>
-      <div class="absolute -right-12 top-12 w-32 h-32 bg-purple-400 rounded-full blur-2xl opacity-20"></div>
+      <div class="absolute -left-12 bottom-12 w-24 h-24 bg-primary-brand rounded-full blur-2xl opacity-20"></div>
+      <div class="absolute -right-12 top-12 w-32 h-32 bg-primary-light rounded-full blur-2xl opacity-20"></div>
 
-      <!-- Cartoon Character (Orange Blob) -->
-      <div class="absolute bottom-[-20px] left-[-40px] w-32 h-32 z-10 hidden md:block">
+      <!-- Tennis Ball Icon -->
+      <div class="absolute bottom-[-20px] right-[-20px] w-24 h-24 z-10 hidden md:block">
           <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M50 90C75 90 90 70 90 50C90 30 70 10 50 10C30 10 10 30 10 50C10 70 25 90 50 90Z" fill="#FF5D2A"/>
-            <circle cx="35" cy="40" r="5" fill="white"/>
-            <circle cx="65" cy="40" r="5" fill="white"/>
-            <path d="M35 60 Q50 70 65 60" stroke="white" stroke-width="3" stroke-linecap="round"/>
-            <!-- Arms -->
-            <path d="M10 50 Q-5 30 15 20" stroke="#FF5D2A" stroke-width="8" stroke-linecap="round"/>
+            <circle cx="50" cy="50" r="40" fill="#CCFF00" stroke="#333" stroke-width="2"/>
+            <path d="M20 35 Q50 50 80 35" stroke="#333" stroke-width="2" fill="none"/>
+            <path d="M20 65 Q50 50 80 65" stroke="#333" stroke-width="2" fill="none"/>
           </svg>
       </div>
     </div>
 
-    <!-- Logos -->
+    <!-- Community -->
     <div class="text-center">
-      <p class="text-sm text-gray-500 mb-6">Powering thousands of marketing teams at the fastest growing companies in tech</p>
-      <div class="flex flex-wrap justify-center items-center gap-8 md:gap-12 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-        <!-- Linktree -->
-        <span class="font-bold text-xl flex items-center gap-2"><div class="w-5 h-5 bg-green-600 rounded-full"></div> Linktree</span>
-        <!-- Raycast -->
-        <span class="font-bold text-xl flex items-center gap-2"><div class="w-5 h-5 bg-red-500 rounded"></div> Raycast</span>
-        <!-- Gamma -->
-        <span class="font-bold text-xl flex items-center gap-2"><div class="w-5 h-5 bg-yellow-500 rounded-tr-xl"></div> Gamma</span>
-        <!-- Superhuman -->
-        <span class="font-bold text-xl flex items-center gap-2"><div class="w-5 h-5 bg-purple-600 rounded-full"></div> Superhuman</span>
-        <!-- Framer -->
-        <span class="font-bold text-xl flex items-center gap-2"><div class="w-5 h-5 bg-black rounded-tl-xl"></div> Framer</span>
-        <!-- Rippling -->
-        <span class="font-bold text-xl flex items-center gap-2"><div class="w-5 h-5 bg-yellow-400 rounded-full"></div> Rippling</span>
+      <p class="text-sm text-gray-500 mb-6">Trusted by tennis fans across Reddit, Twitter, and tennis communities worldwide</p>
+      <div class="flex flex-wrap justify-center items-center gap-8 md:gap-12 opacity-60">
+        <!-- Reddit Tennis -->
+        <span class="font-bold text-xl flex items-center gap-2"><div class="w-5 h-5 bg-orange-600 rounded-full"></div> r/tennis</span>
+        <!-- ATP -->
+        <span class="font-bold text-xl flex items-center gap-2"><div class="w-5 h-5 bg-blue-600 rounded"></div> ATP Tour</span>
+        <!-- WTA -->
+        <span class="font-bold text-xl flex items-center gap-2"><div class="w-5 h-5 bg-purple-600 rounded-full"></div> WTA</span>
+        <!-- Grand Slams -->
+        <span class="font-bold text-xl flex items-center gap-2"><div class="w-5 h-5 bg-green-700 rounded"></div> Grand Slams</span>
+        <!-- Tennis Twitter -->
+        <span class="font-bold text-xl flex items-center gap-2"><div class="w-5 h-5 bg-black rounded-full"></div> Tennis Twitter</span>
       </div>
     </div>
   </section>
 
   <!-- Stats Section -->
-  <section class="py-20 bg-white">
+  <section id="tournaments" class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl md:text-5xl font-serif text-center mb-16 max-w-3xl mx-auto">
-        Get direct access to the top B2B creators in the world - on all platforms
+        Every Grand Slam tournament, powered by AI predictions and live updates
       </h2>
       
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
         <div class="bg-gray-50 p-8 rounded-2xl text-center">
-          <div class="text-4xl font-serif font-medium mb-2">300 Million</div>
-          <div class="text-xs font-bold text-gray-400 tracking-widest uppercase">Target Audience</div>
+          <div class="text-4xl font-serif font-medium mb-2">4 Majors</div>
+          <div class="text-xs font-bold text-gray-400 tracking-widest uppercase">Grand Slam Coverage</div>
         </div>
         <div class="bg-gray-50 p-8 rounded-2xl text-center">
-          <div class="text-4xl font-serif font-medium mb-2">2 Billion</div>
-          <div class="text-xs font-bold text-gray-400 tracking-widest uppercase">Monthly Impressions</div>
+          <div class="text-4xl font-serif font-medium mb-2">128 Players</div>
+          <div class="text-xs font-bold text-gray-400 tracking-widest uppercase">Per Tournament Draw</div>
         </div>
         <div class="bg-gray-50 p-8 rounded-2xl text-center">
-          <div class="text-4xl font-serif font-medium mb-2">60%</div>
-          <div class="text-xs font-bold text-gray-400 tracking-widest uppercase">Lower CPC than LinkedIn Ads*</div>
+          <div class="text-4xl font-serif font-medium mb-2">AI-Powered</div>
+          <div class="text-xs font-bold text-gray-400 tracking-widest uppercase">Match Analysis</div>
         </div>
       </div>
 
-      <!-- Creator Cards Carousel Mockup -->
+      <!-- Grand Slam Cards Carousel -->
       <div class="flex gap-4 overflow-hidden relative">
         <div class="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-white to-transparent z-10"></div>
         <div class="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-white to-transparent z-10"></div>
         
         <div class="flex gap-4 animate-scroll">
-            <!-- Card 1 -->
-            <div class="w-64 h-80 bg-pink-100 rounded-2xl flex-shrink-0 relative overflow-hidden group">
-                <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-xs font-bold flex items-center gap-1">
-                    <div class="w-2 h-2 bg-pink-500 rounded-full"></div> TikTok
-                </div>
-                <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/60 to-transparent p-4 text-white">
-                    <div class="font-bold">Tech Daily</div>
-                    <div class="text-xs opacity-80">500k Followers</div>
-                </div>
-            </div>
-            <!-- Card 2 -->
-            <div class="w-64 h-80 bg-orange-100 rounded-2xl flex-shrink-0 relative overflow-hidden group">
-                <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-xs font-bold flex items-center gap-1">
-                    <div class="w-2 h-2 bg-orange-500 rounded-full"></div> Newsletter
-                </div>
-                <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/60 to-transparent p-4 text-white">
-                    <div class="font-bold">The Hustle</div>
-                    <div class="text-xs opacity-80">2M Subscribers</div>
-                </div>
-            </div>
-            <!-- Card 3 -->
-            <div class="w-64 h-80 bg-red-100 rounded-2xl flex-shrink-0 relative overflow-hidden group">
-                <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-xs font-bold flex items-center gap-1">
-                    <div class="w-2 h-2 bg-red-500 rounded-full"></div> YouTube
-                </div>
-                <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/60 to-transparent p-4 text-white">
-                    <div class="font-bold">MKBHD</div>
-                    <div class="text-xs opacity-80">18M Subscribers</div>
-                </div>
-            </div>
-             <!-- Card 4 -->
+            <!-- Australian Open -->
             <div class="w-64 h-80 bg-blue-100 rounded-2xl flex-shrink-0 relative overflow-hidden group">
                 <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-xs font-bold flex items-center gap-1">
-                    <div class="w-2 h-2 bg-blue-500 rounded-full"></div> LinkedIn
+                    <div class="w-2 h-2 bg-blue-600 rounded-full"></div> January
                 </div>
-                <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/60 to-transparent p-4 text-white">
-                    <div class="font-bold">Sahil Bloom</div>
-                    <div class="text-xs opacity-80">1M Followers</div>
+                <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-blue-900/80 to-transparent p-4 text-white">
+                    <div class="font-bold text-xl">Australian Open</div>
+                    <div class="text-xs opacity-90">Melbourne • Hard Court</div>
                 </div>
             </div>
-             <!-- Card 5 -->
+            <!-- French Open -->
+            <div class="w-64 h-80 bg-orange-100 rounded-2xl flex-shrink-0 relative overflow-hidden group">
+                <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-xs font-bold flex items-center gap-1">
+                    <div class="w-2 h-2 bg-orange-600 rounded-full"></div> May
+                </div>
+                <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-orange-900/80 to-transparent p-4 text-white">
+                    <div class="font-bold text-xl">French Open</div>
+                    <div class="text-xs opacity-90">Paris • Clay Court</div>
+                </div>
+            </div>
+            <!-- Wimbledon -->
+            <div class="w-64 h-80 bg-green-100 rounded-2xl flex-shrink-0 relative overflow-hidden group">
+                <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-xs font-bold flex items-center gap-1">
+                    <div class="w-2 h-2 bg-green-700 rounded-full"></div> June
+                </div>
+                <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-green-900/80 to-transparent p-4 text-white">
+                    <div class="font-bold text-xl">Wimbledon</div>
+                    <div class="text-xs opacity-90">London • Grass Court</div>
+                </div>
+            </div>
+             <!-- US Open -->
             <div class="w-64 h-80 bg-purple-100 rounded-2xl flex-shrink-0 relative overflow-hidden group">
                 <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-xs font-bold flex items-center gap-1">
-                    <div class="w-2 h-2 bg-purple-500 rounded-full"></div> Podcast
+                    <div class="w-2 h-2 bg-purple-600 rounded-full"></div> August
                 </div>
-                <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/60 to-transparent p-4 text-white">
-                    <div class="font-bold">My First Million</div>
-                    <div class="text-xs opacity-80">100k Downloads</div>
+                <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-purple-900/80 to-transparent p-4 text-white">
+                    <div class="font-bold text-xl">US Open</div>
+                    <div class="text-xs opacity-90">New York • Hard Court</div>
+                </div>
+            </div>
+             <!-- Duplicate for seamless scroll -->
+            <div class="w-64 h-80 bg-blue-100 rounded-2xl flex-shrink-0 relative overflow-hidden group">
+                <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-xs font-bold flex items-center gap-1">
+                    <div class="w-2 h-2 bg-blue-600 rounded-full"></div> January
+                </div>
+                <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-blue-900/80 to-transparent p-4 text-white">
+                    <div class="font-bold text-xl">Australian Open</div>
+                    <div class="text-xs opacity-90">Melbourne • Hard Court</div>
                 </div>
             </div>
         </div>
@@ -177,65 +218,73 @@
     </div>
   </section>
 
-  <!-- Disrupted Section -->
-  <section class="bg-dark text-white py-24 overflow-hidden">
+  <!-- Comparison Section -->
+  <section id="how-it-works" class="bg-dark text-white py-24 overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl md:text-5xl font-serif text-center mb-4">Traditional marketing is <br /> being disrupted</h2>
-      <p class="text-center text-gray-400 mb-16">We're entering a new era of personality-led growth.</p>
+      <h2 class="text-3xl md:text-5xl font-serif text-center mb-4">Tennis brackets <br /> reimagined with AI</h2>
+      <p class="text-center text-gray-400 mb-16">From manual spreadsheets to intelligent predictions</p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         <!-- The Old Way -->
         <div>
-          <h3 class="text-xl font-serif mb-2">The Old Way</h3>
+          <h3 class="text-xl font-serif mb-2">Traditional Brackets</h3>
           <p class="text-gray-400 text-sm mb-8 leading-relaxed">
-            Marketers try to build their brand through paid search, outbound, and SEO - but the channels have become crowded and expensive.
+            Fans create brackets in spreadsheets, manually track scores, and struggle to keep groups engaged throughout the tournament.
           </p>
           <div class="bg-gray-800/50 rounded-xl p-6 border border-gray-700 relative">
-             <div class="flex justify-between items-end h-40 gap-2">
-                <div class="w-full bg-red-500/20 rounded-t h-[40%] relative group"><div class="absolute -top-6 left-1/2 -translate-x-1/2 text-xs text-red-400">$20</div></div>
-                <div class="w-full bg-red-500/40 rounded-t h-[60%] relative group"><div class="absolute -top-6 left-1/2 -translate-x-1/2 text-xs text-red-400">$45</div></div>
-                <div class="w-full bg-red-500/60 rounded-t h-[80%] relative group"><div class="absolute -top-6 left-1/2 -translate-x-1/2 text-xs text-red-400">$80</div></div>
-                <div class="w-full bg-red-500/80 rounded-t h-[90%] relative group"><div class="absolute -top-6 left-1/2 -translate-x-1/2 text-xs text-red-400">$120</div></div>
-                <div class="w-full bg-red-500 rounded-t h-full relative group"><div class="absolute -top-6 left-1/2 -translate-x-1/2 text-xs text-red-400 font-bold">$150</div></div>
+             <div class="space-y-3">
+                <div class="flex items-center gap-2 text-sm">
+                    <div class="w-4 h-4 bg-red-500/30 rounded flex items-center justify-center text-red-400 text-xs">✗</div>
+                    <span class="text-gray-400">Manual score tracking</span>
+                </div>
+                <div class="flex items-center gap-2 text-sm">
+                    <div class="w-4 h-4 bg-red-500/30 rounded flex items-center justify-center text-red-400 text-xs">✗</div>
+                    <span class="text-gray-400">No match insights</span>
+                </div>
+                <div class="flex items-center gap-2 text-sm">
+                    <div class="w-4 h-4 bg-red-500/30 rounded flex items-center justify-center text-red-400 text-xs">✗</div>
+                    <span class="text-gray-400">Static spreadsheets</span>
+                </div>
+                <div class="flex items-center gap-2 text-sm">
+                    <div class="w-4 h-4 bg-red-500/30 rounded flex items-center justify-center text-red-400 text-xs">✗</div>
+                    <span class="text-gray-400">Bracket fatigue</span>
+                </div>
              </div>
-             <div class="mt-4 flex justify-between text-xs text-gray-500">
-                <span>2014</span>
-                <span>2024</span>
+             <div class="mt-6 text-center">
+                <div class="text-4xl mb-2">📊</div>
+                <div class="text-xs text-gray-500">Excel Spreadsheet</div>
              </div>
-             <div class="absolute top-4 left-4 text-xs font-bold text-gray-300">CAC (Customer Acquisition Cost)</div>
           </div>
         </div>
 
-        <!-- The New Way -->
+        <!-- The Brckt Way -->
         <div>
-          <h3 class="text-xl font-serif mb-2">The New Way</h3>
+          <h3 class="text-xl font-serif mb-2">The Brckt Way</h3>
           <p class="text-gray-400 text-sm mb-8 leading-relaxed">
-            Hyper-scale your brand and top-of-funnel growth through trusted creator audiences. Cut through the noise and build quality inbound.
+            AI-powered predictions, automatic live updates, group leaderboards, and deep match analysis keep fans engaged all tournament long.
           </p>
-          <div class="relative h-64 flex items-center justify-center">
-             <!-- Central Character -->
-             <div class="relative z-10 w-24 h-24">
-                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M50 90C75 90 90 70 90 50C90 30 70 10 50 10C30 10 10 30 10 50C10 70 25 90 50 90Z" fill="#FF5D2A"/>
-                    <circle cx="35" cy="40" r="5" fill="white"/>
-                    <circle cx="65" cy="40" r="5" fill="white"/>
-                    <path d="M35 60 Q50 70 65 60" stroke="white" stroke-width="3" stroke-linecap="round"/>
-                </svg>
+          <div class="bg-primary-brand/20 rounded-xl p-6 border border-primary-brand/30 relative">
+             <div class="space-y-3">
+                <div class="flex items-center gap-2 text-sm">
+                    <div class="w-4 h-4 bg-green-500 rounded flex items-center justify-center text-white text-xs">✓</div>
+                    <span class="text-white font-medium">Live automatic updates</span>
+                </div>
+                <div class="flex items-center gap-2 text-sm">
+                    <div class="w-4 h-4 bg-green-500 rounded flex items-center justify-center text-white text-xs">✓</div>
+                    <span class="text-white font-medium">AI match analysis</span>
+                </div>
+                <div class="flex items-center gap-2 text-sm">
+                    <div class="w-4 h-4 bg-green-500 rounded flex items-center justify-center text-white text-xs">✓</div>
+                    <span class="text-white font-medium">Group leaderboards</span>
+                </div>
+                <div class="flex items-center gap-2 text-sm">
+                    <div class="w-4 h-4 bg-green-500 rounded flex items-center justify-center text-white text-xs">✓</div>
+                    <span class="text-white font-medium">Player statistics</span>
+                </div>
              </div>
-             <!-- Orbiting Icons -->
-             <div class="absolute inset-0 animate-spin-slow">
-                <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-4 w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white text-xs">Li</div>
-                <div class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-4 w-10 h-10 bg-pink-500 rounded-full flex items-center justify-center text-white text-xs">Ig</div>
-                <div class="absolute left-0 top-1/2 -translate-x-4 -translate-y-1/2 w-10 h-10 bg-red-500 rounded-full flex items-center justify-center text-white text-xs">Yt</div>
-                <div class="absolute right-0 top-1/2 translate-x-4 -translate-y-1/2 w-10 h-10 bg-black rounded-full flex items-center justify-center text-white text-xs">X</div>
-             </div>
-             <!-- Megaphone Effect -->
-             <div class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-20 opacity-50">
-                <svg width="100" height="100" viewBox="0 0 100 100" fill="none">
-                    <path d="M0 50 L100 20" stroke="#FF5D2A" stroke-width="2" stroke-dasharray="4 4"/>
-                    <path d="M0 50 L100 50" stroke="#FF5D2A" stroke-width="2" stroke-dasharray="4 4"/>
-                    <path d="M0 50 L100 80" stroke="#FF5D2A" stroke-width="2" stroke-dasharray="4 4"/>
-                </svg>
+             <div class="mt-6 text-center">
+                <div class="text-4xl mb-2">🎾</div>
+                <div class="text-xs text-primary-brand font-bold">Brckt Platform</div>
              </div>
           </div>
         </div>
@@ -243,109 +292,149 @@
     </div>
   </section>
 
-  <!-- Features Section 1 (Purple) -->
-  <section class="py-24 bg-cream">
+  <!-- Features Section 1 -->
+  <section id="features" class="py-24 bg-cream">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl md:text-5xl font-serif text-center mb-16 max-w-2xl mx-auto">
-        Find the best creators for your brand - fast.
+        Everything you need for the perfect bracket challenge
       </h2>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Card 1: AI Search -->
+        <!-- Card 1: AI Analysis -->
         <div class="lg:col-span-2 bg-white rounded-3xl p-8 shadow-sm border border-gray-100 overflow-hidden relative group">
             <div class="mb-8">
-                <h3 class="text-xl font-serif mb-2">AI-powered creator search</h3>
-                <p class="text-gray-500 text-sm">Our AI lets you search all platforms - not just one. Simply search and find the right creator ambassadors for your business in minutes.</p>
+                <h3 class="text-xl font-serif mb-2">AI-powered match analysis</h3>
+                <p class="text-gray-500 text-sm">Our custom tennis AI analyzes player stats, head-to-head records, recent form, and surface performance to help you make informed picks.</p>
             </div>
-            <div class="bg-purple-50 rounded-xl p-6 h-64 relative border border-purple-100">
-                <!-- Mock Search Bar -->
-                <div class="bg-white rounded-full p-2 shadow-sm flex items-center gap-2 mb-4 w-3/4 mx-auto">
-                    <div class="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center text-purple-600">✨</div>
-                    <div class="text-sm text-gray-400">Tech & Startups</div>
-                    <div class="ml-auto bg-black text-white px-4 py-1.5 rounded-full text-xs font-bold">Search</div>
-                </div>
-                <!-- Results Mockup -->
-                <div class="flex gap-4 justify-center">
-                    <div class="bg-white p-3 rounded-xl shadow-sm w-32">
-                        <div class="w-8 h-8 bg-gray-200 rounded-full mb-2"></div>
-                        <div class="h-2 w-16 bg-gray-100 rounded mb-1"></div>
-                        <div class="h-2 w-10 bg-gray-100 rounded"></div>
+            <div class="bg-primary-brand/5 rounded-xl p-6 h-64 relative border border-primary-brand/10">
+                <!-- AI Analysis Display -->
+                <div class="bg-white rounded-xl p-4 shadow-sm mb-3">
+                    <div class="flex items-center justify-between mb-3">
+                        <div class="flex items-center gap-2">
+                            <div class="w-8 h-8 bg-gray-200 rounded-full"></div>
+                            <div>
+                                <div class="text-sm font-bold">Djokovic</div>
+                                <div class="text-xs text-gray-400">Seed #1</div>
+                            </div>
+                        </div>
+                        <div class="text-primary-brand font-bold text-xl">68%</div>
                     </div>
-                    <div class="bg-white p-3 rounded-xl shadow-sm w-32">
-                        <div class="w-8 h-8 bg-gray-200 rounded-full mb-2"></div>
-                        <div class="h-2 w-16 bg-gray-100 rounded mb-1"></div>
-                        <div class="h-2 w-10 bg-gray-100 rounded"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 2: Network -->
-        <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 overflow-hidden">
-            <div class="mb-8">
-                <h3 class="text-xl font-serif mb-2">World's largest B2B creator network</h3>
-                <p class="text-gray-500 text-sm">The largest selection of creators across Newsletters, LinkedIn, YouTube, Instagram, Twitter, and more.</p>
-            </div>
-            <div class="bg-purple-50 rounded-xl h-48 relative overflow-hidden flex items-center justify-center">
-                <div class="absolute inset-0 bg-[url('https://upload.wikimedia.org/wikipedia/commons/e/ec/World_map_blank_without_borders.svg')] bg-contain bg-no-repeat bg-center opacity-10"></div>
-                <div class="flex gap-2 flex-wrap justify-center p-4">
-                    <span class="bg-white px-2 py-1 rounded shadow-sm text-xs">Newsletter</span>
-                    <span class="bg-white px-2 py-1 rounded shadow-sm text-xs">YouTube</span>
-                    <span class="bg-white px-2 py-1 rounded shadow-sm text-xs">LinkedIn</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 3: Media Kits -->
-        <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 overflow-hidden">
-             <div class="h-48 bg-purple-50 rounded-xl mb-6 p-4 relative">
-                <div class="bg-white rounded-xl shadow-sm p-4 h-full w-full relative transform rotate-[-2deg]">
-                    <div class="flex items-center gap-3 mb-3">
-                        <div class="w-10 h-10 bg-gray-200 rounded-full"></div>
-                        <div>
-                            <div class="h-3 w-20 bg-gray-100 rounded mb-1"></div>
-                            <div class="h-2 w-12 bg-gray-100 rounded"></div>
+                    <div class="space-y-1">
+                        <div class="flex justify-between text-xs">
+                            <span class="text-gray-500">H2H Record</span>
+                            <span class="font-medium">5-2</span>
+                        </div>
+                        <div class="flex justify-between text-xs">
+                            <span class="text-gray-500">Hard Court Win %</span>
+                            <span class="font-medium">84%</span>
+                        </div>
+                        <div class="flex justify-between text-xs">
+                            <span class="text-gray-500">Recent Form</span>
+                            <span class="font-medium text-green-600">W-W-W-L-W</span>
                         </div>
                     </div>
-                    <div class="flex gap-2 mt-4">
-                        <div class="h-16 w-1/3 bg-purple-100 rounded-lg"></div>
-                        <div class="h-16 w-1/3 bg-orange-100 rounded-lg"></div>
-                        <div class="h-16 w-1/3 bg-blue-100 rounded-lg"></div>
+                </div>
+                <div class="text-center text-xs text-gray-400">
+                    <span class="bg-primary-brand/10 px-2 py-1 rounded-full">✨ AI Prediction</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2: Live Updates -->
+        <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 overflow-hidden">
+            <div class="mb-8">
+                <h3 class="text-xl font-serif mb-2">Live tournament updates</h3>
+                <p class="text-gray-500 text-sm">Automatic score updates and bracket progression throughout the tournament.</p>
+            </div>
+            <div class="bg-primary-brand/5 rounded-xl h-48 relative overflow-hidden flex items-center justify-center p-4">
+                <div class="space-y-2 w-full">
+                    <div class="bg-white p-2 rounded shadow-sm flex items-center justify-between">
+                        <span class="text-xs font-medium">Match Complete</span>
+                        <span class="text-xs text-green-600 font-bold">✓ LIVE</span>
+                    </div>
+                    <div class="bg-white p-2 rounded shadow-sm">
+                        <div class="text-xs text-gray-500 mb-1">Round 1</div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm font-bold">Djokovic</span>
+                            <span class="text-xs text-primary-brand">Winner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3: Group Leaderboards -->
+        <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 overflow-hidden">
+             <div class="h-48 bg-primary-brand/5 rounded-xl mb-6 p-4 relative">
+                <div class="bg-white rounded-xl shadow-sm p-4 h-full w-full">
+                    <div class="text-xs font-bold text-gray-400 mb-3">LEADERBOARD</div>
+                    <div class="space-y-2">
+                        <div class="flex items-center gap-2 bg-primary-brand/10 p-2 rounded">
+                            <div class="w-6 h-6 bg-primary-brand text-white rounded-full flex items-center justify-center text-xs font-bold">1</div>
+                            <div class="flex-1 text-xs font-medium">Sarah</div>
+                            <div class="text-xs font-bold">124 pts</div>
+                        </div>
+                        <div class="flex items-center gap-2 p-2">
+                            <div class="w-6 h-6 bg-gray-200 rounded-full flex items-center justify-center text-xs">2</div>
+                            <div class="flex-1 text-xs">Mike</div>
+                            <div class="text-xs">118 pts</div>
+                        </div>
+                        <div class="flex items-center gap-2 p-2">
+                            <div class="w-6 h-6 bg-gray-200 rounded-full flex items-center justify-center text-xs">3</div>
+                            <div class="flex-1 text-xs">Alex</div>
+                            <div class="text-xs">112 pts</div>
+                        </div>
                     </div>
                 </div>
              </div>
-             <h3 class="text-xl font-serif mb-2">Creator media kits</h3>
-             <p class="text-gray-500 text-sm">Analyze creators with verified stats, past prices, rates, and much more.</p>
+             <h3 class="text-xl font-serif mb-2">Group leaderboards</h3>
+             <p class="text-gray-500 text-sm">Compete with friends and see who has the best predictions in real-time.</p>
         </div>
 
-        <!-- Card 4: Recommendations -->
+        <!-- Card 4: Player Stats -->
         <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 overflow-hidden">
-             <div class="h-48 bg-purple-50 rounded-xl mb-6 p-4 flex items-center justify-center">
-                <div class="bg-white p-4 rounded-xl shadow-sm w-full max-w-[200px]">
-                    <div class="text-xs text-gray-400 mb-2">We need to reach our new AI video tool to growth experts...</div>
-                    <div class="flex justify-end">
-                        <div class="bg-black text-white text-xs px-3 py-1.5 rounded-lg">2.1k/M</div>
+             <div class="h-48 bg-primary-brand/5 rounded-xl mb-6 p-4 flex items-center justify-center">
+                <div class="bg-white p-4 rounded-xl shadow-sm w-full">
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="w-12 h-12 bg-gray-200 rounded-full"></div>
+                        <div>
+                            <div class="text-sm font-bold">C. Alcaraz</div>
+                            <div class="text-xs text-gray-400">Seed #3</div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-3 gap-2 text-center">
+                        <div class="bg-gray-50 p-2 rounded">
+                            <div class="text-xs font-bold">45-8</div>
+                            <div class="text-[10px] text-gray-400">W-L</div>
+                        </div>
+                        <div class="bg-gray-50 p-2 rounded">
+                            <div class="text-xs font-bold">82%</div>
+                            <div class="text-[10px] text-gray-400">Win Rate</div>
+                        </div>
+                        <div class="bg-gray-50 p-2 rounded">
+                            <div class="text-xs font-bold">#3</div>
+                            <div class="text-[10px] text-gray-400">Rank</div>
+                        </div>
                     </div>
                 </div>
              </div>
-             <h3 class="text-xl font-serif mb-2">AI creator recommendations</h3>
-             <p class="text-gray-500 text-sm">Tell us your goals - and our AI will build a campaign for you in seconds.</p>
+             <h3 class="text-xl font-serif mb-2">Comprehensive player stats</h3>
+             <p class="text-gray-500 text-sm">Access detailed statistics, career records, and head-to-head matchups.</p>
         </div>
 
-        <!-- Card 5: Evaluate -->
+        <!-- Card 5: Pick Counter -->
         <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 overflow-hidden">
-             <div class="h-48 bg-purple-50 rounded-xl mb-6 p-4 flex items-center justify-center relative">
-                 <div class="bg-white p-4 rounded-xl shadow-sm w-full max-w-[220px] flex items-center gap-4">
-                    <div class="w-12 h-12 rounded-full bg-gray-200"></div>
-                    <div class="flex-1">
-                        <div class="h-3 w-20 bg-gray-100 rounded mb-2"></div>
-                        <div class="h-2 w-full bg-gray-50 rounded"></div>
+             <div class="h-48 bg-primary-brand/5 rounded-xl mb-6 p-4 flex items-center justify-center relative">
+                 <div class="bg-white p-6 rounded-xl shadow-sm text-center">
+                    <div class="text-4xl font-serif font-bold text-primary-brand mb-2">124/128</div>
+                    <div class="text-xs text-gray-500 mb-3">Picks Complete</div>
+                    <div class="w-full bg-gray-100 rounded-full h-2">
+                        <div class="bg-primary-brand h-2 rounded-full" style="width: 97%"></div>
                     </div>
-                    <div class="w-10 h-10 rounded-full border-4 border-green-400 flex items-center justify-center text-xs font-bold text-green-600">98</div>
                  </div>
              </div>
-             <h3 class="text-xl font-serif mb-2">Evaluate a creator in seconds</h3>
-             <p class="text-gray-500 text-sm">Our AI evaluates and summarizes their latest content - no more digging in their feeds.</p>
+             <h3 class="text-xl font-serif mb-2">Pick counter & validation</h3>
+             <p class="text-gray-500 text-sm">Never submit an incomplete bracket with our pick counter and validation system.</p>
         </div>
       </div>
     </div>
@@ -356,174 +445,204 @@
     <div class="max-w-4xl mx-auto px-4 text-center">
         <div class="flex justify-center mb-8">
             <div class="flex items-center gap-2 font-bold text-xl opacity-80">
-                <div class="w-6 h-6 bg-black rounded"></div> INTERCOM
+                <div class="w-6 h-6 bg-orange-600 rounded-full"></div> r/tennis
             </div>
         </div>
         <blockquote class="text-2xl md:text-3xl font-serif leading-relaxed mb-8">
-            "Partnering with creators through Passionfroot has been a game-changer for Intercom's Startup program. By collaborating with top newsletters, we've reached thousands of founders."
+            "Brckt has completely changed how we run bracket challenges during Grand Slams. The AI predictions are surprisingly accurate, and the live updates keep everyone engaged throughout the tournament."
         </blockquote>
         <div class="flex items-center justify-center gap-4">
             <div class="w-12 h-12 rounded-full bg-gray-300"></div>
             <div class="text-left">
-                <div class="font-bold text-sm">John Doe</div>
-                <div class="text-xs text-gray-500">Head of Partnerships at Intercom</div>
+                <div class="font-bold text-sm">Alex M.</div>
+                <div class="text-xs text-gray-500">Tennis Fan & Group Organizer</div>
             </div>
         </div>
     </div>
   </section>
 
-  <!-- Features Section 2 (Blue) -->
+  <!-- Features Section 2 -->
   <section class="py-24 bg-cream">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl md:text-5xl font-serif text-center mb-16">
-        Build and run your <br /> campaign - at scale.
+        Create, share, and compete <br /> with your tennis community
       </h2>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <!-- Card 1 -->
         <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100">
-            <div class="bg-blue-50 rounded-xl h-64 mb-8 p-4 relative overflow-hidden">
-                <!-- Kanban Board Mockup -->
-                <div class="flex gap-4 h-full">
-                    <div class="w-1/3 bg-white/50 rounded-lg p-2 space-y-2">
-                        <div class="h-2 w-12 bg-blue-200 rounded"></div>
-                        <div class="bg-white p-2 rounded shadow-sm h-16"></div>
-                        <div class="bg-white p-2 rounded shadow-sm h-16"></div>
+            <div class="bg-primary-brand/5 rounded-xl h-64 mb-8 p-4 relative overflow-hidden flex items-center justify-center">
+                <div class="bg-white rounded-xl shadow-lg p-6 w-full max-w-sm">
+                    <div class="text-center mb-4">
+                        <div class="text-2xl mb-2">🎾</div>
+                        <div class="text-sm font-bold mb-1">US Open 2025</div>
+                        <div class="text-xs text-gray-400">Create Your Bracket</div>
                     </div>
-                    <div class="w-1/3 bg-white/50 rounded-lg p-2 space-y-2">
-                        <div class="h-2 w-12 bg-blue-200 rounded"></div>
-                         <div class="bg-white p-2 rounded shadow-sm h-16"></div>
-                    </div>
-                    <div class="w-1/3 bg-white/50 rounded-lg p-2 space-y-2">
-                        <div class="h-2 w-12 bg-blue-200 rounded"></div>
+                    <div class="space-y-2">
+                        <div class="flex items-center gap-2 text-xs">
+                            <div class="w-4 h-4 bg-green-500 rounded flex items-center justify-center text-white text-[10px]">✓</div>
+                            <span>Men's Draw</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-xs">
+                            <div class="w-4 h-4 bg-green-500 rounded flex items-center justify-center text-white text-[10px]">✓</div>
+                            <span>Women's Draw</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-xs">
+                            <div class="w-4 h-4 bg-primary-brand rounded flex items-center justify-center text-white text-[10px]">✓</div>
+                            <span>Public & Private Groups</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <h3 class="text-xl font-serif mb-2">Design and run your campaign</h3>
-            <p class="text-gray-500 text-sm">Build your perfect roster, then deploy and manage your creator campaign at scale from one integrated dash.</p>
+            <h3 class="text-xl font-serif mb-2">Men's & Women's tournaments</h3>
+            <p class="text-gray-500 text-sm">Create brackets for both men's and women's draws. Support for all four Grand Slam tournaments throughout the season.</p>
         </div>
 
         <!-- Card 2 -->
         <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100">
-            <div class="bg-blue-50 rounded-xl h-64 mb-8 p-4 flex items-center justify-center">
+            <div class="bg-primary-brand/5 rounded-xl h-64 mb-8 p-4 flex items-center justify-center">
                  <div class="bg-white rounded-xl shadow-lg p-4 w-3/4">
-                    <div class="flex justify-between items-center mb-4">
-                        <div class="h-3 w-20 bg-gray-200 rounded"></div>
-                        <div class="h-6 w-20 bg-blue-500 rounded text-white text-[10px] flex items-center justify-center">Apply now</div>
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="text-sm font-bold">Share Group</div>
+                        <div class="h-6 px-3 bg-primary-brand rounded text-white text-[10px] flex items-center justify-center">Copy Link</div>
                     </div>
                     <div class="space-y-2">
-                        <div class="h-2 w-full bg-gray-100 rounded"></div>
-                        <div class="h-2 w-5/6 bg-gray-100 rounded"></div>
+                        <div class="bg-gray-50 p-2 rounded text-xs">
+                            <div class="text-gray-400 mb-1">Group Code</div>
+                            <div class="font-mono font-bold">USOPEN2025</div>
+                        </div>
+                        <div class="flex gap-2">
+                            <div class="h-8 w-8 bg-blue-100 rounded flex items-center justify-center text-xs">📱</div>
+                            <div class="h-8 w-8 bg-green-100 rounded flex items-center justify-center text-xs">💬</div>
+                            <div class="h-8 w-8 bg-purple-100 rounded flex items-center justify-center text-xs">✉️</div>
+                        </div>
                     </div>
                  </div>
             </div>
-            <h3 class="text-xl font-serif mb-2">Publish your own live campaign</h3>
-            <p class="text-gray-500 text-sm">Tired of outreach? Publish your campaign with your creator requirements and let relevant creators apply and come to you!</p>
+            <h3 class="text-xl font-serif mb-2">Public & private groups</h3>
+            <p class="text-gray-500 text-sm">Create private groups for friends or public groups for the entire tennis community. Easy sharing via link or group code.</p>
         </div>
 
         <!-- Card 3 -->
         <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100">
-            <div class="bg-blue-50 rounded-xl h-64 mb-8 p-4 flex items-center justify-center">
-                <!-- Calendar Mockup -->
-                <div class="bg-white rounded-xl shadow-sm p-4 w-3/4">
-                    <div class="grid grid-cols-7 gap-2 mb-2">
-                        {#each Array(7) as _}
-                            <div class="h-4 w-full bg-gray-100 rounded"></div>
-                        {/each}
-                    </div>
-                    <div class="grid grid-cols-7 gap-2">
-                        {#each Array(28) as _, i}
-                            <div class="h-6 w-full {i === 14 ? 'bg-blue-500' : 'bg-gray-50'} rounded text-[8px] flex items-center justify-center text-gray-400">
-                                {i === 14 ? 'Book' : ''}
+            <div class="bg-primary-brand/5 rounded-xl h-64 mb-8 p-4 flex items-center justify-center">
+                <div class="bg-white rounded-xl shadow-sm p-4 w-full max-w-sm">
+                    <div class="text-xs font-bold text-gray-400 mb-3">MOBILE OPTIMIZED</div>
+                    <div class="space-y-2">
+                        <div class="bg-gray-50 p-3 rounded flex items-center gap-2">
+                            <div class="text-xl">📱</div>
+                            <div class="flex-1">
+                                <div class="text-xs font-medium">Swipe Navigation</div>
+                                <div class="text-[10px] text-gray-400">128-player draws</div>
                             </div>
-                        {/each}
+                        </div>
+                        <div class="bg-gray-50 p-3 rounded flex items-center gap-2">
+                            <div class="text-xl">📌</div>
+                            <div class="flex-1">
+                                <div class="text-xs font-medium">Sticky Headers</div>
+                                <div class="text-[10px] text-gray-400">Easy tracking</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <h3 class="text-xl font-serif mb-2">Book ad slots directly</h3>
-            <p class="text-gray-500 text-sm">Skip the scheduling back-and-forth - book open slots directly in creators' calendars.</p>
+            <h3 class="text-xl font-serif mb-2">Mobile-first experience</h3>
+            <p class="text-gray-500 text-sm">Seamless mobile navigation with swipe functionality and sticky round headers for easy bracket management on any device.</p>
         </div>
 
         <!-- Card 4 -->
         <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100">
-            <div class="bg-blue-50 rounded-xl h-64 mb-8 p-4 flex items-center justify-center">
-                <!-- Chat Mockup -->
-                <div class="w-full max-w-sm space-y-3">
-                    <div class="flex gap-2">
-                        <div class="w-8 h-8 bg-gray-200 rounded-full"></div>
-                        <div class="bg-white p-3 rounded-2xl rounded-tl-none shadow-sm text-xs text-gray-500 w-2/3">
-                            Hey! I'd love to work with you on this campaign.
+            <div class="bg-primary-brand/5 rounded-xl h-64 mb-8 p-4 flex items-center justify-center">
+                <div class="w-full max-w-sm">
+                    <div class="bg-white rounded-xl shadow-lg p-4 mb-3">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-xs font-bold">Match Analysis</span>
+                            <span class="text-xs text-primary-brand">AI</span>
+                        </div>
+                        <div class="text-xs text-gray-600 leading-relaxed">
+                            "Djokovic holds a 5-2 H2H advantage and has won 84% of hard court matches this season..."
                         </div>
                     </div>
-                    <div class="flex gap-2 flex-row-reverse">
-                        <div class="w-8 h-8 bg-blue-500 rounded-full"></div>
-                        <div class="bg-blue-500 text-white p-3 rounded-2xl rounded-tr-none shadow-sm text-xs w-2/3">
-                            Sounds great! Let's do it.
-                        </div>
+                    <div class="text-center text-[10px] text-gray-400">
+                        Powered by custom tennis AI
                     </div>
                 </div>
             </div>
-            <h3 class="text-xl font-serif mb-2">Scale your outreach and connect directly in-app</h3>
-            <p class="text-gray-500 text-sm">Passionfroot is not a database, it's the largest B2B creator network in the world. This means you can book all creators directly from your campaign. No more email outreach or ghosted DMs.</p>
+            <h3 class="text-xl font-serif mb-2">Deep match insights</h3>
+            <p class="text-gray-500 text-sm">Get AI-generated match breakdowns with head-to-head stats, surface performance, and recent form analysis for every matchup.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Thousands of campaigns -->
+  <!-- Join Tournament CTA -->
   <section class="py-24 bg-cream relative overflow-hidden">
-    <!-- Floating Icons Background (Simplified) -->
+    <!-- Floating Tennis Icons Background -->
     <div class="absolute inset-0 opacity-10 pointer-events-none">
-        <div class="absolute top-10 left-10 w-12 h-12 bg-black rounded-lg transform rotate-12"></div>
-        <div class="absolute top-20 right-20 w-12 h-12 bg-blue-500 rounded-lg transform -rotate-6"></div>
-        <div class="absolute bottom-20 left-1/3 w-12 h-12 bg-pink-500 rounded-lg transform rotate-45"></div>
-        <div class="absolute bottom-10 right-1/4 w-12 h-12 bg-orange-500 rounded-lg transform -rotate-12"></div>
+        <div class="absolute top-10 left-10 w-12 h-12 text-4xl">🎾</div>
+        <div class="absolute top-20 right-20 w-12 h-12 text-4xl">🏆</div>
+        <div class="absolute bottom-20 left-1/3 w-12 h-12 text-4xl">🎾</div>
+        <div class="absolute bottom-10 right-1/4 w-12 h-12 text-4xl">🏆</div>
     </div>
 
     <div class="max-w-4xl mx-auto px-4 text-center relative z-10">
-        <div class="inline-block bg-green-100 text-green-800 px-4 py-1 rounded-full text-xs font-bold mb-6">
-            Get on Passionfroot ->
+        <div class="inline-block bg-primary-brand/10 text-primary-brand px-4 py-1 rounded-full text-xs font-bold mb-6">
+            Next Major: Check app.brckt.io
         </div>
-        <h2 class="text-4xl md:text-6xl font-serif mb-4">Thousands of campaigns <br /> launched to date</h2>
-        <p class="text-gray-500 mb-10">with 60% lower CPC than LinkedIn Ads*</p>
+        <h2 class="text-4xl md:text-6xl font-serif mb-4">Ready for the next <br /> Grand Slam?</h2>
+        <p class="text-gray-500 mb-10">Join thousands of tennis fans competing in bracket challenges</p>
         
         <div class="flex justify-center gap-4">
-            <Button href="#" type="primary">Get access &rarr;</Button>
-            <Button href="#" type="white">Talk to us</Button>
+            <Button href="https://app.brckt.io/group/create" type="primary">Create Your Bracket &rarr;</Button>
+            <Button href="https://app.brckt.io/explore" type="white">Explore Groups</Button>
         </div>
     </div>
   </section>
 
-  <!-- Payments Section (Green) -->
+  <!-- Tournament Season Section -->
   <section class="py-24 bg-cream">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl md:text-5xl font-serif text-center mb-16">
-        Put creator payments & <br /> results on auto-pilot
+        All four Grand Slams, <br /> one platform
       </h2>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <!-- Left Large Card -->
         <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 md:row-span-2 flex flex-col">
             <div class="mb-8">
-                <h3 class="text-xl font-serif mb-2">Pay quickly and safely</h3>
-                <p class="text-gray-500 text-sm">Pay one provider - not hundreds. Enjoy worldwide creator payments for seamless and secure transactions - your finance team will love you.</p>
+                <h3 class="text-xl font-serif mb-2">Complete Grand Slam coverage</h3>
+                <p class="text-gray-500 text-sm">From Melbourne to New York, create brackets for every major tournament throughout the tennis season.</p>
             </div>
-            <div class="flex-1 bg-green-50 rounded-2xl relative overflow-hidden min-h-[300px]">
-                <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-green-200/50 to-transparent"></div>
-                <!-- Globe/Map Abstract -->
-                <div class="absolute inset-0 flex items-center justify-center">
-                    <div class="w-64 h-64 border border-green-200 rounded-full opacity-50"></div>
-                    <div class="w-48 h-48 border border-green-200 rounded-full opacity-50 absolute"></div>
-                    <div class="w-96 h-96 border border-green-200 rounded-full opacity-30 absolute"></div>
-                </div>
-                <!-- Floating Avatars -->
-                <div class="absolute top-1/4 left-1/4 bg-white p-1 rounded-full shadow-lg flex items-center gap-2 pr-3 animate-bounce">
-                    <div class="w-8 h-8 bg-yellow-200 rounded-full"></div>
-                    <span class="text-xs font-bold">$500</span>
-                </div>
-                <div class="absolute bottom-1/3 right-1/4 bg-white p-1 rounded-full shadow-lg flex items-center gap-2 pr-3 animate-bounce delay-700">
-                    <div class="w-8 h-8 bg-blue-200 rounded-full"></div>
-                    <span class="text-xs font-bold">$1200</span>
+            <div class="flex-1 bg-primary-brand/5 rounded-2xl relative overflow-hidden min-h-[300px] p-6">
+                <div class="space-y-4">
+                    <div class="bg-white rounded-xl p-4 shadow-sm flex items-center justify-between">
+                        <div>
+                            <div class="font-bold text-sm mb-1">Australian Open</div>
+                            <div class="text-xs text-gray-400">January • Melbourne</div>
+                        </div>
+                        <div class="text-2xl">🇦🇺</div>
+                    </div>
+                    <div class="bg-white rounded-xl p-4 shadow-sm flex items-center justify-between">
+                        <div>
+                            <div class="font-bold text-sm mb-1">French Open</div>
+                            <div class="text-xs text-gray-400">May • Paris</div>
+                        </div>
+                        <div class="text-2xl">🇫🇷</div>
+                    </div>
+                    <div class="bg-white rounded-xl p-4 shadow-sm flex items-center justify-between">
+                        <div>
+                            <div class="font-bold text-sm mb-1">Wimbledon</div>
+                            <div class="text-xs text-gray-400">June • London</div>
+                        </div>
+                        <div class="text-2xl">🇬🇧</div>
+                    </div>
+                    <div class="bg-white rounded-xl p-4 shadow-sm flex items-center justify-between">
+                        <div>
+                            <div class="font-bold text-sm mb-1">US Open</div>
+                            <div class="text-xs text-gray-400">August • New York</div>
+                        </div>
+                        <div class="text-2xl">🇺🇸</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -532,205 +651,151 @@
         <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100">
             <div class="flex justify-between items-start mb-4">
                 <div>
-                     <h3 class="text-xl font-serif mb-2">Measure returns effortlessly</h3>
-                     <p class="text-gray-500 text-sm">Get results reported directly in your dash so you can take the guess work out of creator marketing.</p>
+                     <h3 class="text-xl font-serif mb-2">Growing community</h3>
+                     <p class="text-gray-500 text-sm">Join thousands of tennis fans who've discovered a better way to enjoy Grand Slam tournaments.</p>
                 </div>
-                <span class="bg-green-100 text-green-700 px-2 py-1 rounded text-xs font-bold">Tracking live</span>
+                <span class="bg-primary-brand/10 text-primary-brand px-2 py-1 rounded text-xs font-bold">Active</span>
             </div>
-            <div class="bg-green-50 rounded-xl h-40 flex items-end p-4 gap-2">
-                <div class="w-1/5 bg-green-300 h-[40%] rounded-t"></div>
-                <div class="w-1/5 bg-green-400 h-[60%] rounded-t"></div>
-                <div class="w-1/5 bg-green-500 h-[30%] rounded-t"></div>
-                <div class="w-1/5 bg-green-600 h-[80%] rounded-t"></div>
-                <div class="w-1/5 bg-green-700 h-[50%] rounded-t"></div>
+            <div class="bg-primary-brand/5 rounded-xl h-40 flex items-end p-4 gap-2">
+                <div class="w-1/5 bg-primary-brand/30 h-[40%] rounded-t"></div>
+                <div class="w-1/5 bg-primary-brand/50 h-[60%] rounded-t"></div>
+                <div class="w-1/5 bg-primary-brand/70 h-[75%] rounded-t"></div>
+                <div class="w-1/5 bg-primary-brand/90 h-[90%] rounded-t"></div>
+                <div class="w-1/5 bg-primary-brand h-full rounded-t"></div>
             </div>
         </div>
 
         <!-- Right Bottom Card (Testimonial) -->
         <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 flex gap-6 items-center">
             <div class="w-24 h-24 bg-gray-200 rounded-full flex-shrink-0 overflow-hidden">
-                <!-- Placeholder for person -->
                 <svg class="w-full h-full text-gray-400" fill="currentColor" viewBox="0 0 24 24"><path d="M24 24H0V0h24v24z" fill="none"/><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
             </div>
             <div>
-                <div class="text-green-600 text-4xl font-serif leading-none mb-2">"</div>
-                <p class="text-sm text-gray-600 italic mb-4">Passionfroot helped us streamline procurement and now automates our creator payouts globally. Our finance department loves it.</p>
-                <div class="text-xs font-bold">Julia</div>
-                <div class="text-[10px] text-gray-400">Senior Marketing Manager at Linktree</div>
+                <div class="text-primary-brand text-4xl font-serif leading-none mb-2">"</div>
+                <p class="text-sm text-gray-600 italic mb-4">The AI predictions are surprisingly accurate and the live updates during matches keep our entire group engaged. Best bracket platform I've used.</p>
+                <div class="text-xs font-bold">Jordan T.</div>
+                <div class="text-[10px] text-gray-400">Tennis Enthusiast</div>
             </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Powering People Grid -->
+  <!-- Community Testimonials Grid -->
   <section class="py-24 bg-cream">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl md:text-5xl font-serif text-center mb-16 max-w-2xl mx-auto">
-        Powering the people building category-defining brands
+        Loved by tennis fans worldwide
       </h2>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-         <!-- Row 1 -->
-         <div class="aspect-square bg-gray-200 rounded-2xl relative overflow-hidden group">
-            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors"></div>
-            <div class="absolute bottom-4 left-4 text-white font-bold">Gamma</div>
-            <div class="absolute bottom-4 right-4 text-white text-xl">+</div>
-         </div>
-         <div class="aspect-square bg-white rounded-2xl flex items-center justify-center border border-gray-100">
-            <span class="text-2xl font-bold flex items-center gap-2"><div class="w-6 h-6 bg-purple-500 rounded-tl-lg rounded-br-lg"></div> Figma</span>
-         </div>
-         <div class="col-span-2 bg-[#FFF9C4] rounded-2xl p-8 flex flex-col justify-between">
-            <div class="text-4xl font-serif text-yellow-600">"</div>
-            <p class="text-lg font-serif leading-relaxed">Partnering with creators through Passionfroot has been a strong growth channel. Instead of scouring the internet, their AI search enabled us to find...</p>
-            <div class="flex justify-between items-end">
-                <div class="text-xs">
-                    <div class="font-bold">John Doe</div>
-                    <div class="text-gray-500">Head of Partnerships</div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+         <!-- Testimonial 1 -->
+         <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-10 h-10 bg-gray-200 rounded-full"></div>
+                <div>
+                    <div class="font-bold text-sm">Sarah M.</div>
+                    <div class="text-xs text-gray-400">Tennis Fan</div>
                 </div>
-                <div class="text-xl">+</div>
             </div>
+            <p class="text-sm text-gray-600 leading-relaxed">"The AI predictions helped me win my group during the Australian Open. The insights are incredibly detailed!"</p>
          </div>
 
-         <!-- Row 2 -->
-         <div class="col-span-2 bg-white rounded-2xl flex items-center justify-center border border-gray-100 p-8">
-            <span class="text-3xl font-bold text-gray-700">HubSpot</span>
-         </div>
-         <div class="aspect-square bg-gray-200 rounded-2xl relative overflow-hidden group">
-             <div class="absolute bottom-4 left-4 text-white font-bold">Munch</div>
-             <div class="absolute bottom-4 right-4 text-white text-xl">+</div>
-         </div>
-         <div class="aspect-square bg-gray-200 rounded-2xl relative overflow-hidden group">
-             <div class="absolute bottom-4 left-4 text-white font-bold">Freshbooks</div>
-             <div class="absolute bottom-4 right-4 text-white text-xl">+</div>
+         <!-- Testimonial 2 -->
+         <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-10 h-10 bg-gray-200 rounded-full"></div>
+                <div>
+                    <div class="font-bold text-sm">Mike R.</div>
+                    <div class="text-xs text-gray-400">Group Organizer</div>
+                </div>
+            </div>
+            <p class="text-sm text-gray-600 leading-relaxed">"Finally, a bracket platform that doesn't require manual score updates. Live tracking is a game-changer."</p>
          </div>
 
-         <!-- Row 3 -->
-         <div class="col-span-2 bg-[#E6F0FF] rounded-2xl p-8 flex flex-col justify-between">
-            <div class="text-4xl font-serif text-blue-600">"</div>
-            <p class="text-lg font-serif leading-relaxed">Passionfroot really helped us level up our creator program into a strong growth channel. Instead of scouring the internet...</p>
-            <div class="flex justify-between items-end">
-                <div class="text-xs">
-                    <div class="font-bold">Jane Smith</div>
-                    <div class="text-gray-500">Growth Lead</div>
+         <!-- Testimonial 3 -->
+         <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-10 h-10 bg-gray-200 rounded-full"></div>
+                <div>
+                    <div class="font-bold text-sm">Alex K.</div>
+                    <div class="text-xs text-gray-400">r/tennis Member</div>
                 </div>
-                <div class="text-xl">+</div>
             </div>
+            <p class="text-sm text-gray-600 leading-relaxed">"Best tennis bracket platform I've used. The mobile experience is smooth and the leaderboards keep everyone engaged."</p>
          </div>
-         <div class="col-span-2 bg-white rounded-2xl flex items-center justify-center border border-gray-100 p-8">
-             <span class="text-2xl font-bold flex items-center gap-2"><div class="w-6 h-6 bg-black rounded"></div> Framer</span>
+
+         <!-- Testimonial 4 -->
+         <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-10 h-10 bg-gray-200 rounded-full"></div>
+                <div>
+                    <div class="font-bold text-sm">Emma L.</div>
+                    <div class="text-xs text-gray-400">Tennis Enthusiast</div>
+                </div>
+            </div>
+            <p class="text-sm text-gray-600 leading-relaxed">"Love the head-to-head stats and player analysis. Makes picking matches so much more informed and fun."</p>
          </div>
-         
-         <!-- Row 4 -->
-         <div class="aspect-square bg-gray-200 rounded-2xl relative overflow-hidden group">
-             <div class="absolute bottom-4 left-4 text-white font-bold">Replit</div>
-             <div class="absolute bottom-4 right-4 text-white text-xl">+</div>
+
+         <!-- Testimonial 5 -->
+         <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-10 h-10 bg-gray-200 rounded-full"></div>
+                <div>
+                    <div class="font-bold text-sm">Chris P.</div>
+                    <div class="text-xs text-gray-400">Tournament Follower</div>
+                </div>
+            </div>
+            <p class="text-sm text-gray-600 leading-relaxed">"The pick counter saved me from submitting an incomplete bracket. Great attention to detail on this platform."</p>
          </div>
-         <div class="aspect-square bg-gray-200 rounded-2xl relative overflow-hidden group">
-             <div class="absolute bottom-4 left-4 text-white font-bold">Pika</div>
-             <div class="absolute bottom-4 right-4 text-white text-xl">+</div>
-         </div>
-         <div class="col-span-2 bg-white rounded-2xl flex items-center justify-center border border-gray-100 p-8">
-             <span class="text-2xl font-bold">ElevenLabs</span>
+
+         <!-- Testimonial 6 -->
+         <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-10 h-10 bg-gray-200 rounded-full"></div>
+                <div>
+                    <div class="font-bold text-sm">Taylor B.</div>
+                    <div class="text-xs text-gray-400">Grand Slam Fan</div>
+                </div>
+            </div>
+            <p class="text-sm text-gray-600 leading-relaxed">"Having both men's and women's brackets in one place is perfect. Can't wait for Wimbledon!"</p>
          </div>
       </div>
     </div>
   </section>
 
-  <!-- Orange CTA Section -->
-  <section class="bg-orange-brand py-24 relative overflow-hidden">
+  <!-- Primary CTA Section -->
+  <section class="bg-primary-brand py-24 relative overflow-hidden">
     <div class="max-w-4xl mx-auto px-4 text-center relative z-10">
-        <h2 class="text-4xl md:text-6xl font-serif mb-8 text-dark">Let's make creators your <br /> next growth channel</h2>
+        <h2 class="text-4xl md:text-6xl font-serif mb-8 text-white">Make every Grand Slam <br /> more exciting</h2>
         
-        <div class="flex flex-col md:flex-row justify-center gap-6 mb-10 text-sm font-medium text-dark/80">
+        <div class="flex flex-col md:flex-row justify-center gap-6 mb-10 text-sm font-medium text-white/90">
             <div class="flex items-center gap-2">
-                <div class="bg-dark text-white rounded-full p-0.5"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg></div>
-                Get better returns on your time & money
+                <div class="bg-white text-primary-brand rounded-full p-0.5"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg></div>
+                AI-powered match predictions
             </div>
             <div class="flex items-center gap-2">
-                <div class="bg-dark text-white rounded-full p-0.5"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg></div>
-                Save 70% of your time per campaign
+                <div class="bg-white text-primary-brand rounded-full p-0.5"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg></div>
+                Live updates & leaderboards
             </div>
         </div>
 
         <div class="flex justify-center gap-4">
-            <Button href="#" type="primary">Get access &rarr;</Button>
-            <Button href="#" type="white">Talk to us</Button>
+            <Button href="https://app.brckt.io/group/create" type="white">Create Your Bracket &rarr;</Button>
         </div>
     </div>
 
-    <!-- Bottom Illustration (Cartoon Line) -->
-    <div class="absolute bottom-0 left-0 right-0 h-32 opacity-20 pointer-events-none flex items-end justify-center overflow-hidden">
-        <!-- Abstract representation of the cartoon line -->
+    <!-- Bottom Tennis Court Lines -->
+    <div class="absolute bottom-0 left-0 right-0 h-32 opacity-10 pointer-events-none flex items-end justify-center overflow-hidden">
         <svg width="1200" height="100" viewBox="0 0 1200 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 100 C 50 50, 100 50, 150 100" stroke="black" stroke-width="2" fill="none"/>
-            <circle cx="75" cy="80" r="10" stroke="black" stroke-width="2"/>
-            <path d="M150 100 C 200 60, 250 60, 300 100" stroke="black" stroke-width="2" fill="none"/>
-            <circle cx="225" cy="85" r="12" stroke="black" stroke-width="2"/>
-            <path d="M300 100 C 350 40, 400 40, 450 100" stroke="black" stroke-width="2" fill="none"/>
-             <circle cx="375" cy="70" r="15" stroke="black" stroke-width="2"/>
-             <!-- Repeat pattern -->
-             <path d="M450 100 C 500 50, 550 50, 600 100" stroke="black" stroke-width="2" fill="none"/>
-             <path d="M600 100 C 650 60, 700 60, 750 100" stroke="black" stroke-width="2" fill="none"/>
-             <path d="M750 100 C 800 40, 850 40, 900 100" stroke="black" stroke-width="2" fill="none"/>
-             <path d="M900 100 C 950 50, 1000 50, 1050 100" stroke="black" stroke-width="2" fill="none"/>
-             <path d="M1050 100 C 1100 60, 1150 60, 1200 100" stroke="black" stroke-width="2" fill="none"/>
+            <!-- Tennis court lines -->
+            <line x1="0" y1="80" x2="1200" y2="80" stroke="white" stroke-width="3"/>
+            <line x1="200" y1="60" x2="200" y2="100" stroke="white" stroke-width="2"/>
+            <line x1="400" y1="60" x2="400" y2="100" stroke="white" stroke-width="2"/>
+            <line x1="600" y1="40" x2="600" y2="100" stroke="white" stroke-width="3"/>
+            <line x1="800" y1="60" x2="800" y2="100" stroke="white" stroke-width="2"/>
+            <line x1="1000" y1="60" x2="1000" y2="100" stroke="white" stroke-width="2"/>
         </svg>
-    </div>
-  </section>
-
-  <!-- Case Studies -->
-  <section class="py-24 bg-cream">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl md:text-5xl font-serif text-center mb-16">Case Studies</h2>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <!-- Large Card Top -->
-        <div class="md:col-span-2 bg-[#FFCCBC] rounded-3xl p-10 md:p-16 flex flex-col md:flex-row items-center gap-10">
-            <div class="flex-1">
-                <div class="text-4xl font-bold text-white mb-8">guidde.</div>
-            </div>
-            <div class="flex-1 bg-white/90 backdrop-blur rounded-2xl p-8 shadow-sm">
-                <div class="text-xs font-bold text-gray-400 uppercase mb-4">Customer Story</div>
-                <h3 class="text-2xl font-serif mb-4">How Guidde made creators a scalable growth channel with Passionfroot</h3>
-                <p class="text-gray-500 text-sm mb-6">Guidde is the generative AI platform for business that helps teams create video documentation in a matter...</p>
-                <div class="flex justify-between items-center">
-                    <span class="text-xs text-gray-400">4 min read</span>
-                    <button class="bg-black text-white px-4 py-2 rounded-lg text-xs font-bold">Read more &rarr;</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- Bottom Left -->
-        <div class="bg-[#B3E5FC] rounded-3xl p-8 flex flex-col justify-between h-96">
-            <div class="flex items-center gap-2 font-bold opacity-80 mb-8">
-                <div class="w-6 h-6 bg-black rounded"></div> INTERCOM
-            </div>
-            <div class="bg-white/90 backdrop-blur rounded-2xl p-6 shadow-sm mt-auto">
-                <div class="text-xs font-bold text-gray-400 uppercase mb-2">Customer Story</div>
-                <h3 class="text-xl font-serif mb-4">Becoming the definitive AI-first Customer Service Platform</h3>
-                <div class="flex justify-between items-center mt-4">
-                    <span class="text-xs text-gray-400">3 min read</span>
-                    <button class="bg-black text-white px-3 py-1.5 rounded-lg text-xs font-bold">Read more &rarr;</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- Bottom Right -->
-        <div class="bg-[#FFCC80] rounded-3xl p-8 flex flex-col justify-between h-96">
-            <div class="flex items-center gap-2 font-bold opacity-80 mb-8 text-blue-900">
-                <div class="w-6 h-6 bg-blue-600 rounded"></div> Freshbooks
-            </div>
-            <div class="bg-white/90 backdrop-blur rounded-2xl p-6 shadow-sm mt-auto">
-                <div class="text-xs font-bold text-gray-400 uppercase mb-2">Customer Story</div>
-                <h3 class="text-xl font-serif mb-4">How Freshbooks reached 2M+ impressions with Passionfroot</h3>
-                <div class="flex justify-between items-center mt-4">
-                    <span class="text-xs text-gray-400">3 min read</span>
-                    <button class="bg-black text-white px-3 py-1.5 rounded-lg text-xs font-bold">Read more &rarr;</button>
-                </div>
-            </div>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -741,18 +806,18 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
         {#each [
-            "What is Passionfroot?",
-            "What types of businesses can use Passionfroot?",
-            "How does Passionfroot work?",
-            "What platforms can I use Passionfroot for?",
-            "How do I discover the right creators for my brand?",
-            "How are payments managed?",
-            "Can I run multiple campaigns at once?",
-            "How do I get started with Passionfroot?"
+            "What is Brckt?",
+            "Which tournaments does Brckt cover?",
+            "How does the AI prediction system work?",
+            "Can I create private groups for friends?",
+            "How are brackets scored?",
+            "When do groups open for each tournament?",
+            "Is there a mobile app?",
+            "How do I join an existing group?"
         ] as question}
             <div class="border-b border-gray-200 py-4 flex justify-between items-center group cursor-pointer">
-                <span class="font-medium text-lg group-hover:text-orange-brand transition-colors">{question}</span>
-                <div class="w-6 h-6 rounded-full bg-dark text-white flex items-center justify-center text-sm group-hover:bg-orange-brand transition-colors">+</div>
+                <span class="font-medium text-lg group-hover:text-primary-brand transition-colors">{question}</span>
+                <div class="w-6 h-6 rounded-full bg-dark text-white flex items-center justify-center text-sm group-hover:bg-primary-brand transition-colors">+</div>
             </div>
         {/each}
       </div>

@@ -10,39 +10,27 @@
       <!-- Logo -->
       <div class="flex-shrink-0 flex items-center">
         <a href="/" class="flex items-center gap-2">
-          <!-- Passionfroot Logo Icon -->
+          <!-- Brckt Logo Icon -->
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32Z" fill="#191817"/>
-            <path d="M16 26C21.5228 26 26 21.5228 26 16C26 10.4772 21.5228 6 16 6C10.4772 6 6 10.4772 6 16C6 21.5228 10.4772 26 16 26Z" fill="#FF5D2A"/>
-            <path d="M19.5 13.5L12.5 18.5" stroke="white" stroke-width="2" stroke-linecap="round"/>
-            <path d="M12.5 13.5L19.5 18.5" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            <rect width="32" height="32" rx="6" fill="#191817"/>
+            <path d="M8 10 L8 22 M8 10 L14 10 C16 10 17 11 17 13 C17 15 16 16 14 16 L8 16 M8 16 L15 16 C17 16 18 17 18 19 C18 21 17 22 15 22 L8 22" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <path d="M20 10 L20 22 M20 16 L24 10 M20 16 L24 22" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          <span class="font-bold text-xl tracking-tight">passionfroot</span>
+          <span class="font-bold text-xl tracking-tight">Brckt</span>
         </a>
       </div>
 
       <!-- Desktop Navigation -->
       <div class="hidden md:flex items-center space-x-8">
-        <div class="relative group">
-          <button class="flex items-center gap-1 text-sm font-medium hover:text-orange-brand transition-colors">
-            For Brands
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-          </button>
-        </div>
-        <div class="relative group">
-          <button class="flex items-center gap-1 text-sm font-medium hover:text-orange-brand transition-colors">
-            For Creators
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-          </button>
-        </div>
+        <a href="#how-it-works" class="text-sm font-medium hover:text-primary-brand transition-colors">How It Works</a>
+        <a href="#features" class="text-sm font-medium hover:text-primary-brand transition-colors">Features</a>
+        <a href="#tournaments" class="text-sm font-medium hover:text-primary-brand transition-colors">Tournaments</a>
       </div>
 
       <!-- Right Side -->
       <div class="hidden md:flex items-center space-x-6">
-        <a href="#" class="text-sm font-medium hover:text-orange-brand transition-colors">About</a>
-        <a href="#" class="text-sm font-medium hover:text-orange-brand transition-colors">Careers</a>
-        <a href="#" class="text-sm font-medium hover:text-orange-brand transition-colors">Login</a>
-        <Button href="#" className="!py-2 !px-4 !text-sm">Get access &rarr;</Button>
+        <a href="https://app.brckt.io" class="text-sm font-medium hover:text-primary-brand transition-colors">Login</a>
+        <Button href="https://app.brckt.io/group/create" className="!py-2 !px-4 !text-sm">Create Bracket &rarr;</Button>
       </div>
 
       <!-- Mobile menu button -->
